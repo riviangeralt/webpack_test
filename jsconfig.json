@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "baseUrl": "src",
+      "paths": {
+          "@api-client": ["api-client"],
+          "@assets": ["assets"],
+          "@atoms": ["components/atoms"],
+          "@contexts": ["components/contexts"],
+          "@hooks": ["components/hooks"],
+          "@layout": ["components/layout"],
+          "@molecules": ["components/molecules"],
+          "@organisms": ["components/organisms"],
+          "@pages": ["pages"],
+          "@utilities": ["utils"],
+          "@config": ["config"],
+      }
+  },
+  "include": ["src"]
+}
