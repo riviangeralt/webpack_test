@@ -1,0 +1,9 @@
+{
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["@testing-library/jest-dom"],
+    "moduleNameMapper": {
+        "\\.(jpg|jpeg|png|gif|webp|svg)$": "jest-transform-stub",
+        "\\.(css|scss)$": "identity-obj-proxy"
+    },
+    "setupFiles": ["./setupTests.js"]
+}
